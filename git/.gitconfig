@@ -1,0 +1,6 @@
+[core]
+        # if using wsl, to allow the 1Password SSH agent to work
+        sshCommand = ssh.exe
+        editor = micro
+
+# [user] set individually in each repo, to avoid accidentally pushing with the wrong email address

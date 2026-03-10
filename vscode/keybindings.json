@@ -1,5 +1,4 @@
 [
-  // make toogle comment consistent between mac and windows
   {
     "key": "cmd+[Backslash]",
     "command": "editor.action.commentLine",

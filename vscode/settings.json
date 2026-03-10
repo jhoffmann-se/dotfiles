@@ -1,0 +1,101 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultColorDecorators": "auto",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font Mono', 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.wordWrap": "on"
+  },
+  "[jsonc]": {
+    "editor.wordWrap": "on"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "errorLens.enabled": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "astro"
+  ],
+  "git.autofetch": true,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "terminal.integrated.commandsToSkipShell": [
+    "-workbench.action.quickOpenView"
+  ],
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/layout.tsx": "${dirname} - Layout",
+    "**/app/**/page.tsx": "${dirname} - Page",
+    "**/components/**/index.tsx": "${dirname} - Component"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "editor.accessibilitySupport": "off",
+  "remote.autoForwardPortsSource": "hybrid",
+  "git.replaceTagsWhenPull": true,
+  "gitlens.rebaseEditor.ordering": "asc",
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": false,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": true,
+    "searchAndCompare": true,
+    "launchpad": false
+  },
+  "git.ignoreRebaseWarning": true,
+  "git.blame.editorDecoration.enabled": false,
+  "git.blame.statusBarItem.enabled": false,
+  "i18n-ally.displayLanguage": "de",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.views.branches.showRemoteBranches": true,
+  "template-string-converter.addBracketsToProps": true,
+  "template-string-converter.autoRemoveTemplateString": true,
+  "template-string-converter.convertOutermostQuotes": true,
+  "playwright.reuseBrowser": true,
+  "cSpell.language": "en,de-de",
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "cSpell.userWords": ["cooldown", "cooldowns", "syncpack"],
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://ui.shadcn.com": true,
+    "https://turborepo.com/schema.json": true
+  },
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.selectedModel": "default",
+  "workbench.colorTheme": "Tokyo Night"
+}
